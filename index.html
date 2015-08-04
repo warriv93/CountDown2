@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script language="Javascript" type="text/javascript" src="js/jquery.lwtCountdown-1.0.js"></script>
+    <script language="Javascript" type="text/javascript" src="js/misc.js"></script>
+    <link rel="Stylesheet" type="text/css" href="css/main.css"></link>
+    <link rel="Stylesheet" type="text/css" href="css/style4.css"></link>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>CountDown2</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="container">
+    <ul class="cb-slideshow">
+            <li><span>Image 01</span><div><h3></h3> <h1>CountDownTimer</h1>
+            <h2 class="subtitle">Simon comes home!</h2></div></li>
+            <li><span>Image 02</span><div><h3></h3> <h1>CountDownTimer</h1>
+            <h2 class="subtitle">Simon comes home!</h2></div></li>
+            <li><span>Image 03</span><div><h3></h3> <h1>CountDownTimer</h1>
+            <h2 class="subtitle">Simon comes home!</h2></div></li>
+            <li><span>Image 04</span><div><h3></h3> <h1>CountDownTimer</h1>
+            <h2 class="subtitle">Simon comes home!</h2></div></li> 
+            <li><span>Image 05</span><div><h3></h3> <h1>CountDownTimer</h1>
+            <h2 class="subtitle">Simon comes home!</h2></div></li> 
+            <li><span>Image 06</span><div><h3></h3> <h1>CountDownTimer</h1>
+            <h2 class="subtitle">Simon comes home!</h2></div></li> 
+            <li><span>Image 07</span><div><h3></h3> <h1>CountDownTimer</h1>
+            <h2 class="subtitle">Simon comes home!</h2></div></li> 
+            <li><span>Image 08</span><div><h3></h3> <h1>CountDownTimer</h1>
+            <h2 class="subtitle">Simon comes home!</h2></div></li> 
+            <li><span>Image 09</span><div><h3></h3> <h1>CountDownTimer</h1>
+            <h2 class="subtitle">Simon comes home!</h2></div></li> 
+            <li><span>Image 10</span><div><h3></h3> <h1>CountDownTimer</h1>
+            <h2 class="subtitle">Simon comes home!</h2></div></li> 
+            <li><span>Image 11</span><div><h3></h3> <h1>CountDownTimer</h1>
+            <h2 class="subtitle">Simon comes home!</h2></div></li> 
+            <li><span>Image 12</span><div><h3></h3> <h1>CountDownTimer</h1>
+            <h2 class="subtitle">Simon comes home!</h2></div></li> 
+            <li><span>Image 13</span><div><h3></h3> <h1>CountDownTimer</h1>
+            <h2 class="subtitle">Simon comes home!</h2></div></li> 
+            <li><span>Image 14</span><div><h3></h3> <h1>CountDownTimer</h1>
+            <h2 class="subtitle">Simon comes home!</h2></div></li>
+        </ul>
+            <h1>CountDownTimer</h1>
+            <h2 class="subtitle">Simon comes home!</h2>
+
+            <!-- Countdown dashboard start -->
+            <div id="countdown_dashboard">
+                <div class="dash weeks_dash">
+                    <span class="dash_title">weeks</span>
+                    <div class="digit">0</div>
+                    <div class="digit">0</div>
+                </div>
+
+                <div class="dash days_dash">
+                    <span class="dash_title">days</span>
+                    <div class="digit">0</div>
+                    <div class="digit">0</div>
+                </div>
+
+                <div class="dash hours_dash">
+                    <span class="dash_title">hours</span>
+                    <div class="digit">0</div>
+                    <div class="digit">0</div>
+                </div>
+
+                <div class="dash minutes_dash">
+                    <span class="dash_title">minutes</span>
+                    <div class="digit">0</div>
+                    <div class="digit">0</div>
+                </div>
+
+                <div class="dash seconds_dash">
+                    <span class="dash_title">seconds</span>
+                    <div class="digit">0</div>
+                    <div class="digit">0</div>
+                </div>
+
+            </div>
+            <!-- Countdown dashboard end -->
+            <!--
+		//<div class="dev_comment">
+			This is a place holder for your comments.<br/>
+			This page has been tested with <br />IE 6, IE 7, IE 8, FF 3, Safari 4, Opera 9, Chrome 4
+		</div>
+
+		<div class="subscribe">
+			<form action="" method="POST" id="subscribe_form">
+				<input type="text" name="email" id="email_field" class="faded" value="your@email.com" /> <input type="submit" id="subscribe_button" value="Stay updated" />
+			</form>
+		</div>
+-->
+            <script language="javascript" type="text/javascript">
+                $(document).ready(function () {
+                    $('#countdown_dashboard').countDown({
+                        targetDate: {
+                            'day':      08,
+                            'month':    1,
+                            'year':     2016,
+                            'hour':     12,
+                            'min':      20,
+                            'sec':      0
+                        }
+                    });
+
+                
+                  //  var img = [
+                   //     'url("images/background/1.jpg")',
+                    //    'url("images/background/2.jpg")',
+                    //    'url("images/background/3.jpg")',
+                    //    'url("images/background/4.jpg")'
+                     //       ];
+                    
+                   
+                 
+                // for(var i = 0; i<4;i++){
+                           
+                        //$('body').css('background-image', img(i)).delay(3000);
+                     //   setTimeout(function(){
+                   //   $('body').css('background-image', 'url("images/background/'+i+'.jpg")').delay(3000).fadeIn( 400 );
+                                    
+               //     console.log(i+"     uu");
+           //   }, 2000);
+
+                        
+                      // i = Math.floor((Math.random() * 4) + 1); 
+           //         }
+
+
+                    //$('#email_field').focus(email_focus).blur(email_blur);
+                    //$('#subscribe_form').bind('submit', function() { return false; });
+                });
+            </script>
+
+        </div>
+    </div>
+    <footer></footer>
+</body>
+
+</html>
